@@ -181,3 +181,34 @@ main #add {
         
     }
 }
+
+@media (max-width: 425px) {
+
+  .tasks-box::-webkit-scrollbar-track {
+    border-radius: 0px;
+  }
+  .tasks-box::-webkit-scrollbar {
+    width: 0px;
+    border-radius: 0px;
+  }
+  .tasks-box::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+  }
+
+
+    #concluidasEfaltando .Tasks {
+        width: 80%;
+    }
+
+    #concluidasEfaltando .Tasks button {
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px
+    }
+
+    #concluidasEfaltando div {
+      width: 90%;
+      height: 370px;
+      padding-bottom: 2px;
+    }
+}
